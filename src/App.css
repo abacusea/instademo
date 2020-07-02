@@ -70,10 +70,6 @@ a:active {
     position: relative;
 }
 
-.margin-t {
-  margin-top: 24px;
-}
-
 .section-primary {
     display: flex;
     flex-direction: column;
@@ -89,6 +85,7 @@ a:active {
 }
 
 .section-timeline {
+    padding-top: 30px;
     display: flex;
     flex-flow: row nowrap;
     max-width: 935px;
@@ -104,6 +101,7 @@ a:active {
 .padding {
   padding-top: 30px;
 }
+
 
 .app-header {
     order: 0;
@@ -236,14 +234,11 @@ a:active {
 .section-left {
   float: left;
   margin-right: 28px;
-  max-width: 614px;
+  max-width: 550px;
   width: 100%;
 }
 
 .section-right {
-  left: 934.1px;
-  top: 88px;
-  position: fixed;
   height: 100vh;
   margin-bottom: 30px;
   padding: 0;
@@ -251,10 +246,4 @@ a:active {
   right: 0;
   width: 100%;
 }
-
-
-
-
-
-
 

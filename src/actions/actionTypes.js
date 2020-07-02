@@ -1,0 +1,4 @@
+export const actionTypes = {
+  ADD_BOOKMARK: "ADD_BOOKMARK",
+  FETCH_DATA_SUCCESS: "FETCH_DATA_SUCCESS"
+};

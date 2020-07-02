@@ -1,0 +1,336 @@
+.container__user {
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-suggestions {
+    background-color: #fafafa;
+    margin: 0 0 12px -16px;
+}
+
+.p-tz {
+    padding-top: 0;
+}
+
+@media (min-width:876px) {
+    .container-about {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 38px 0
+}
+}
+
+.user_container {
+    margin-bottom: 0;
+    max-height: 141px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.container__userpic {
+    align-items: center;
+    align-self: center;
+    display: block;
+    flex: none;
+    justify-content: center;
+    width: 50px;
+}
+
+.container__username {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container-user__canvas {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+    user-select: none;
+}
+
+.userpic__alt {
+    cursor: pointer;
+    background-color: #fafafa;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.b {
+    width: 56px;
+    height: 56px;
+}
+
+.userpic__alt::after {
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.userpic {
+    height: inherit;
+}
+
+.username {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.username__a, .username__a:visited {
+    color: #262626; 
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.name {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    padding-left: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: grey;
+}
+
+.suggestion-title {
+    padding: 4px 16px;
+    margin-top: 12px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    box-sizing: border-box;
+}
+
+.title-suggestion {
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.title__name {
+    display: block;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+
+.suggestion-see {
+    color: #262626;
+    border: 0;
+    display: inline;
+    padding: 0;
+    position: relative; 
+    background-color: transparent;
+    user-select: auto;
+    background: 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    width: auto;
+}
+
+.see-all {
+    display: block;
+    color: #262626;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+}
+
+.right-profiles {
+    margin-left: 4px;
+    margin-bottom: 4px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.right-profile-position {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: #fafafa;
+    height: auto;
+    overflow: hidden auto;
+}
+
+.section-suggestion {
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.section-suggest__panel {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+}
+
+.section-suggest__rpanel {
+    margin-right: 12px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.suggest__profpic {
+    align-items: center;
+    align-self: center;
+    display: block;
+    flex: none;
+    justify-content: center;
+}
+
+.suggested__title {
+  flex: 0 0 auto;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.suggest__canvas {
+    user-select: none;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 42px;
+    height: 42px;
+}
+
+.c {
+    width: 32px;
+    height: 32px;
+}
+
+.suggested-name{
+    display: block;
+    color: #262626;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+
+.section-suggest__name {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    display: inline!important;
+    margin: 0!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+}
+
+.status{
+    margin-top: 8px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.status__name {
+    display: block;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+}
+
+.section__follow {
+    padding: 16px;
+    margin-left: 8px;
+    flex: 0 0 auto;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+}
+
+.button__follow {
+    border: 0;
+    color: #0095f6;
+    display: inline;
+    padding: 0;
+    position: relative;
+    background: 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+    font-size: 12px;
+}
+
+.ABOUT {
+    text-transform: uppercase;
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}

@@ -1,5 +1,7 @@
 import React, { Fragment} from 'react'
-import TimeLine from '../Timeline'
+import TimeLine from '../Timeline/index'
+import SuggestionList from '../Suggestions/index'
+import * as Images from '../../assets/images'
 
 const Main = () => {
 	return (
@@ -7,13 +9,8 @@ const Main = () => {
 			<div />
 			<main className="container-main">
 				<section className="section-timeline padding">
-					<div className="section-left">
-						<div className="margin-t">
-							<TimeLine />
-						</div>
-					</div>
-					<div className="section-right">
-					</div>
+					<TimeLine />	
+					<SuggestionList />
 				</section>
 			</main>
 		</Fragment>

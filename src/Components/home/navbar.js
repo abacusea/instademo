@@ -34,7 +34,7 @@ const NavBar = () => {
 								</div>
 								<div className="navlink-icons">
 								<div />
-									<img className="nav__profile" src={Images.profile} alt="" />
+									<img className="nav__profile" src="" alt="" />
 								</div>
 
 							</div>
